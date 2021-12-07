@@ -1,6 +1,6 @@
 src = $(wildcard src/*.cc)
 objects = $(src:src/%.cc=out/%.o)
-dependencies = $(obj:.o=.d)
+dependencies = $(objects:.o=.d)
 
 tests = $(wildcard test/*.cc)
 tests_objs = $(tests:test/%.cc=out/tests/%.o)
