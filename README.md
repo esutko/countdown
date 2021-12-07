@@ -1,6 +1,6 @@
 # Countdown
 
-The worlds worst calander app.
+The worlds worst calander app. Countdown is a CLI calander app. It was orignally designed to keep track of the release dates of films and movies but it can be used for various purposes.
 
 ## Building:
 Countdown can be built with:
